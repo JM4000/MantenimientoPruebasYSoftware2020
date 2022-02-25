@@ -3,19 +3,16 @@ package org.jm4000.factorial;
 public class Factorial {
 
     public int compute(int value) {
-        int result;
+        int result=1;
 
-        if(value < 0) throw new RuntimeException("Can't compute negative values");
-
-        if ((value == 0) || (value == 1)){
-            result = 1;
-        }else if(value == 2){
-            result = 2;
-        }else if(value == 3){
-            result = 6;
-        }else {
-            result = value * compute(value-1);
+        if(value < 0) {
+            throw new RuntimeException("Can't compute negative values");
+        }else{
+            for ( int j=1; j<=value; j++ )
+                result *= j;
         }
+
+
         return result;
     }
 }
