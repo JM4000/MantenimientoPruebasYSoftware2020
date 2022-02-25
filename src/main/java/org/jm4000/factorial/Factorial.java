@@ -1,5 +1,10 @@
 package org.jm4000.factorial;
 
+/**
+ * Class providing a method that computes the factorial of
+ * an integer number
+ */
+
 public class Factorial {
 
     public int compute(int value) {
