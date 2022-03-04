@@ -3,6 +3,8 @@ package org.jm4000.factorial;
 /**
  * Class providing a method that computes the factorial of
  * an integer number
+ *
+ * @author Juan marcos Benítez Navone Colomer
  */
 
 public class Factorial {
