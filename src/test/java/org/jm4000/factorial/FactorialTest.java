@@ -13,6 +13,10 @@ import static org.junit.jupiter.api.Assertions.*;
  *  factorial 1 -> 1 *
  *  factorial 2 -> 2 *
  *  factorial 3 -> 6 *
+ *  factorial 6 -> 720 *
+ *  factorial <0 -> Raises Exception
+ *
+ *  @author Juan marcos Benítez Navone Colomer
  */
 class FactorialTest {
 
